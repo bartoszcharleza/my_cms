@@ -170,7 +170,7 @@ function find_pages_by_subject_id($id)
   $sql .= "ORDER BY position ASC";
   $result = mysqli_query($db, $sql);
   confirm_result_set($result);
-  return $result; // returns an assoc. array
+  return $result;
 }
 
 
